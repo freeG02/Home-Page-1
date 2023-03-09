@@ -1,0 +1,203 @@
+body {
+  margin-top: 3em;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 4em;
+  font-family: inter;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+  cursor: pointer;
+}
+.items {
+  display: flex;
+  justify-self: end;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+#button1 {
+  margin-right: 1.5em;
+  text-decoration: none;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+  margin-bottom: 1.5em;
+}
+#button2 {
+  margin-right: 1.5em;
+  text-decoration: none;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+#button3 {
+  margin-right: 1.5em;
+  text-decoration: none;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+#button4 {
+  margin-right: 1.5em;
+  text-decoration: none;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+#button5 {
+  margin-right: 0;
+  text-decoration: none;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+#button1:hover {
+  color: hsl(5, 85%, 63%);
+}
+#button2:hover {
+  color: hsl(5, 85%, 63%);
+}
+#button3:hover {
+  color: hsl(5, 85%, 63%);
+}
+#button4:hover {
+  color: hsl(5, 85%, 63%);
+}
+#button5:hover {
+  color: hsl(5, 85%, 63%);
+}
+#container2 {
+  background-color: hsl(240, 100%, 5%);
+  padding: 2em;
+}
+#li {
+  color: hsl(36, 100%, 99%);
+  font-family: inter;
+}
+.top {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(3, 1fr);
+}
+#container1 {
+  grid-column: span 2;
+}
+#container1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ul {
+  padding: 0;
+}
+#ul2 {
+  margin: 0;
+}
+#container2 {
+  margin: 0;
+  grid-row: span 2;
+}
+#C3 {
+  font-family: inter;
+  font-size: 35px;
+  font-weight: 900;
+  margin: 0;
+  color: hsl(240, 100%, 5%);
+}
+h1 {
+  color: hsl(35, 77%, 62%);
+  margin-top: 0;
+}
+#light:hover {
+  color: hsl(35, 77%, 62%);
+}
+h2 {
+  font-size: 15px;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+p {
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 1em;
+}
+hr {
+  height: 0;
+  background-color: white;
+}
+#C4 {
+  margin: 0;
+  font-family: inter;
+  font-weight: 400;
+  line-height: 18px;
+}
+button {
+  background-color: hsl(240, 100%, 5%);
+  margin-top: 2.5em;
+  height: 3.8em;
+  width: 15em;
+  color: hsl(36, 100%, 99%);
+  font-size: 8px;
+  /* padding: 1.2em; */
+  letter-spacing: 0.4em;
+  font-weight: 700;
+  font-size: 9px;
+  cursor: pointer;
+}
+/* #btn:hover {
+  color: hsl(5, 85%, 63%);
+} */
+.bottom {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+#Img {
+  height: 38%;
+}
+#left {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+#center {
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+}
+#center:hover {
+  color: hsl(5, 85%, 63%);
+}
+#center1 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  cursor: pointer;
+}
+#right {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  cursor: pointer;
+}
+#top {
+  margin: 0;
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 800;
+  color: hsl(233, 8%, 79%);
+}
+p {
+  font-family: inter;
+}
